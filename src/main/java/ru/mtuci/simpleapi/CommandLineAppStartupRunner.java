@@ -18,7 +18,7 @@ public class CommandLineAppStartupRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        System.out.println(productRepository.findById(1L).get());
+     //   System.out.println(productRepository.findById(1L).get());
     }
 
 }
