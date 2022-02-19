@@ -25,5 +25,5 @@ __Список команд для тестирования микросерви
 2.	Получение всех данных в таблице. Тип запроса: GET http://localhost:8080/api/v1/cars
 3.	Получение данных из базы данных по известному ID. Тип запроса: GET http://localhost:8080/api/v1/cars/3
 4.	Запись в базу данных нового продукта. Тип запроса: POST http://localhost:8080/api/v1/cars/
-Тело запроса (JSON): {"shop": "Авилон", "brand": "Audi", "model": "A8", "price": 5500000, "quantity": "2"}
-5. Удаление записи из базы данных по известному id. Тип запроса: DELETE http://localhost:8080/api/v1/product/7
+ Тело запроса (JSON): {"shop": "Авилон", "brand": "Audi", "model": "A8", "price": 5500000, "quantity": "2"}
+5. Удаление записи из базы данных по известному id. Тип запроса: DELETE http://localhost:8080/api/v1/cars/7
